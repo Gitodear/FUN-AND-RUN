@@ -1,0 +1,70 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    🎀 FOR YOU - QUICK START GUIDE 💖
+═══════════════════════════════════════════════════════════════════════════════
+
+HOW TO USE:
+───────────
+
+1. Double-click "index.html" to open in your default browser
+   OR
+   Right-click index.html → Open with → [Your Browser]
+
+2. Click through the screens to experience the interactive proposal
+
+3. Make your choice between YES and NO buttons
+
+
+FOLDER CONTENTS:
+────────────────
+
+✓ index.html       - Main web page (open this file!)
+✓ styles.css       - All styling and animations
+✓ script.js        - All interactive features and logic
+✓ README.md        - Complete technical documentation
+
+
+FEATURES:
+─────────
+
+✨ 5 interactive screens with smooth transitions
+✨ Typewriter effect with emotional messages
+✨ Playful NO button (dodges when you try to click it!)
+✨ Celebration with confetti animation
+✨ Beautiful colors and animations
+✨ Works on all devices (mobile, tablet, desktop)
+✨ No internet connection required (except for fonts)
+
+
+BROWSER REQUIREMENTS:
+────────────────────
+
+✓ Chrome (Recommended)
+✓ Firefox
+✓ Safari
+✓ Edge
+✓ Mobile browsers
+
+
+TROUBLESHOOTING:
+────────────────
+
+Problem: Page won't open
+Solution: Try a different browser (Chrome recommended)
+
+Problem: Buttons don't work
+Solution: Check if JavaScript is enabled in browser settings
+
+Problem: Looks ugly on mobile
+Solution: That shouldn't happen - zoom in/out to adjust
+
+
+CUSTOMIZATION:
+──────────────
+
+Want to change text, colors, or timing?
+See README.md for a detailed customization guide!
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                            Made with ❤️ - Enjoy!
+═══════════════════════════════════════════════════════════════════════════════

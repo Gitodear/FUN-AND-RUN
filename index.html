@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You 💖</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background Elements -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="hearts-bg" id="hearts-bg"></div>
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- Screen 1: Intro -->
+  <div class="screen active" id="screen1">
+    <div class="intro-envelope">
+      <div class="envelope-body"></div>
+      <div class="envelope-flap"></div>
+      <div class="envelope-heart">💌</div>
+    </div>
+    <p class="intro-text">Hey… I made something for you 💖</p>
+    <button class="btn btn-primary intro-btn" onclick="goToScreen2()">Click here</button>
+  </div>
+
+  <!-- Screen 2: Emotional Build-Up -->
+  <div class="screen" id="screen2">
+    <div class="typewriter-container" id="typewriter-container"></div>
+    <button class="btn btn-primary screen2-btn" id="screen2-btn" onclick="goToScreen3()">
+      I have something to ask…
+    </button>
+  </div>
+
+  <!-- Screen 3: Proposal -->
+  <div class="screen" id="screen3">
+    <h1 class="proposal-question" id="proposal-q">Will you be mine? 💜</h1>
+    <div class="btn-group" id="btn-group">
+      <button class="btn btn-yes" id="btn-yes" onclick="handleYes()">YES 💖</button>
+      <button class="btn btn-no" id="btn-no">NO 💔</button>
+    </div>
+  </div>
+
+  <!-- Screen 4: YES Celebration -->
+  <div class="screen" id="screen4">
+    <div class="glow-ring" id="glow-ring"></div>
+    <div class="celebration-heart" id="celeb-heart">❤️</div>
+    <p class="celebration-text" id="celeb-text">
+      You just made me<br>the happiest person alive ❤️
+    </p>
+  </div>
+
+  <!-- Screen 5: NO Gentle -->
+  <div class="screen" id="screen5">
+    <div class="gentle-emoji" id="gentle-emoji">💛</div>
+    <p class="gentle-text" id="gentle-text">
+      Okay… I understand.<br>
+      I just wanted you to know<br>how I feel 💛
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
